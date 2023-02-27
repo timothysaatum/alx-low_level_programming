@@ -5,7 +5,7 @@
  * followed by a new lin
  * Return : 0
  */
-void print_ alphabet_ x10(void)
+void print_alphabet_x10(void)
 {
 	char ch;
 	int i;
@@ -16,10 +16,10 @@ void print_ alphabet_ x10(void)
 		ch = 'a';
 		while (ch <= 'z')
 		{
-			_ putchar(ch);
+			_putchar(ch);
 			ch++;
 		}
-		_ putchar('\n');
+		_putchar('\n');
 		i++;
 	}
 }

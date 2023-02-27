@@ -1,16 +1,17 @@
-#ifndef main_ h
-#define main_ h
-	extern int _ putchar(char c);
-	extern void print_ alphabet(void);
-	extern void print_ alphabet_ x10(void);
-	extern int _ islower(int c);
-	extern int _ isalpha(int c);
-	extern int print_ sign(int n);
-	extern int _ abs(int);
-	extern int print_ last_ digit(int);
-	extern void jack_ bauer(void);
-	extern void times_ table(void);
-	extern int add(int, int);
-	extern void print_ to_ 98(int n);
-	extern void print_ times_ table(int n);
+#ifndef main_h
+#define main_h
+int _putchar(char);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+int print_last_digit(int);
+void jack_bauer(void);
+void times_table(void);
+int add(int, int);
+void print_to_98(int n);
+void print_times_table(int n);
 #endif
+
