@@ -11,8 +11,7 @@ void print_rev(char *s)
 
 	while (*s != '\0')
 	{
-		0x05. C - Pointers, arrays and strings
-			longi++;
+		longi++;
 		s++;
 	}
 	s--;
